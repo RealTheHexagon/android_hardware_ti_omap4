@@ -44,3 +44,8 @@ $(clear-android-api-vars)
 
 endif
 endif
+
+
+# compatiblity for older binaries
+PRODUCT_PACKAGES += \
+    libcorkscrew
